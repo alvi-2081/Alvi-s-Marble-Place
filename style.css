@@ -1,0 +1,192 @@
+
+.navbar{
+    background-color: whitesmoke !important;
+    padding: 0px !important;
+}
+
+.navbar-brand{
+    margin: 0px 0px 0px 0px !important;
+}
+
+.nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 21px;
+    border-radius: 16px ;
+    padding: 4px 15px 4px 15px !important;
+}
+
+.nav-link:hover{
+    background-color: #e4b704 !important;
+    color: whitesmoke !important;
+}
+
+.fa-shopping-cart ,.fa-user-circle{
+    font-size: 28px !important;
+}
+
+.h1{
+    padding: 5px 20px 5px 20px !important;
+    margin: 60px 0px 35px 0px !important;
+    background-color:#e4b704;
+    color: #fff !important;
+    font-size: 35px !important;
+    font-weight: bolder !important;
+    border-radius: 20px !important;
+}
+
+.btn{
+    background-color: #e4b704 !important;
+}
+
+.introduction{
+    padding: 0px 200px 15px 200px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(133, 131, 131);
+    line-height: 28px;
+}
+
+.mainCard{
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card1,.card2,.card3{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    width: 30%;
+    height: 100px;
+    background-color: whitesmoke;
+    box-shadow: 2px 4px 5px grey;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: #e4b704;
+}
+
+.fa-truck,.fa-phone,.fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: #e4b704 ;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 90px;
+    color:#333333 ;
+    background-color: whitesmoke;
+}
+
+.contacts{
+    line-height: 32px;
+    background-color: whitesmoke;
+    color: #333333;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 50px 0px 0px;
+    font-size: 18px;
+}
+
+.links{
+    color: #e4b704;
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bolder;
+    width: 460px;
+    
+}
+
+.connect{ 
+    color: #e4b704;
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.copy{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e4b704;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 16px;
+}
+
+.products{
+    margin: 10px 0px 50px 0px;
+}
+
+.card{
+    width: 250px ;
+    height: 580px !important;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px !important;
+}
+
+.color {color: #e4b704;
+}
+
+.btn-primary{
+    background-color: #e4b704 !important;
+    border: 0px !important;
+    border-radius: 10px !important;
+}
+
+.account{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 80px 0px;    
+}
+
+.password{
+    padding-left: 245px;
+    color: #e4b704;
+    font-size: 18px;
+}
+
+.login{
+    font-size: 23px !important;
+    border-radius: 18px !important;
+    margin-top: 25px;
+    padding: 5px 20px 5px 20px !important;
+}
+
+
+@media screen and (max-width:600px){
+div>nav>div>a>img{
+    margin-left: 10px;
+    width: 150px;
+    height: 65px;
+}    
+.card1,.card2,.card3{
+        width: 100%;
+        margin: 10px 5px 0px 5px;
+}
+.introduction {
+        padding: 10px 30px 20px 30px;
+}
+div>div>div>img{
+        width: 130px;
+    height: 250px; 
+}
+.footer{
+    padding-left: 35px;
+}
+.links{
+    width: 300px;
+}
+.products{
+    margin: 5px 0px 5px 108px;    
+}
+.card{
+    width: 220px;
+    height: 520px !important;
+}
+}
